@@ -8,21 +8,23 @@
     <title>Sinpatico</title>
   </head>
   <body>
-    <h1>Select the worst sin in the following categories and learn your Sinpatico score</h1>
+    <h1>In each of the following categories, select the worst option. Your responses will be compiled, translated into punk points, and you will then recieve your net Sinpatico score.</h1>
+    <!-- categories: note- make these more obscure so users will have a harder time figurind it out. Lifestyle (alchoholic drinks, snack foods, mobility, houses, jobs, degrees, etc), Arts and Culture (songs/bands, TV shows, Films, Pixar Movies),   -->
+
+    <!-- FIRST SECTION- DROP DOWNS, SECOND SECTION-RADIO BOC, THIRD SECTION CHECKBOXES,  -->
     <div class="container">
-    <h2></h2>
-    <select class="form-control" id="">
-      <option>sdas</option>
-      <option>Tea</option>
-      <option>Kombucha</option>
-      <option>Water</option>
+    <h2>Cardinal Sins</h2>
+    <form class="add">
+
+
+    <select class="form-control" id="beverage">
+      <option value="1">Coffee</option>
+      <option value="2">Tea</option>
+      <option value="3">Kombucha</option>
+      <option value="4">Water</option>
     </select>
-
-    <h2>Lifestyle Sins</h2>
-
-
-    <h2>Arts & Culture Sins</h2>
-
-    <h2>Contextual Social Sins</h2>
+    <button type="submit" class="btn">Drink Responsibly</button>
+    </form>
   </div>
 </body>
+<!-- what it will do- assign #values to each response, add these values from each section, calculate a total score 100/150 punk points and a sinpatico score (convert punk points to a percentage. Eventually, could be someething that navigates between two pages for multiple users so they could compare their responses rather than just compare with my thing.) -->
